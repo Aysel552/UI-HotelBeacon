@@ -48,10 +48,12 @@ p, a {
     right: 0;
     top: 30px;
     background-color: #fff;
-    height: 58px;
+    height: 103px;
     z-index: 9999;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
     
 }
 
@@ -74,6 +76,20 @@ p, a {
 
 img{
     vertical-align: middle;
+}
+
+.navbar-collapse{
+    display: flex;
+    width: 100%;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+.navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 
