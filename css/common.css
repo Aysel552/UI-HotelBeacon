@@ -1,27 +1,2 @@
 /* Adding common classes throughout the project */
 
-img{
-    vertical-align: middle;
-}
-
-.navbar-collapse{
-    display: flex;
-    width: 100%;
-}
-
-.ml-auto{
-    margin-left: auto;
-}
-.navbar-nav{
-    display: flex;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-
-/* Hover part */
-
-.temporary-banner-bar:hover a{
-    text-decoration: underline;
-    
-}

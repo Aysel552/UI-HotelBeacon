@@ -42,57 +42,39 @@ p, a {
 
 /* Adding styles to navigation menu */
 
-.navbar{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 30px;
-    background-color: #fff;
-    height: 103px;
-    z-index: 9999;
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 8px;
-    
-}
-
-.navbar-menu{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    max-width: 1400px;
-    width: 100%;
+#navbar{
+    padding: 15px 0px;
     border: 1px solid red;
 }
 
-.navbar-menu-brand{
-    display: inline-block;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: 80px;
-    font-size: 20px;
-}
-
-img{
-    vertical-align: middle;
-}
-
-.navbar-collapse{
+.navbar-container{
+    width: 1400px;
+    margin: 0 auto;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
 }
 
-.ml-auto{
-    margin-left: auto;
+.navbar-container-brand{
+    border: 1px solid red;
 }
-.navbar-nav{
+
+.navbar-container-nav{
     display: flex;
-    padding-left: 0;
-    margin-bottom: 0;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-between;
 }
 
+ul{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    
+}
 
+.navbar-container-nav  ul li a {
+    padding: 0px 10px;
+    font-size: 1.2em;
+}
 /* Hover part */
 
 .temporary-banner-bar:hover a{
